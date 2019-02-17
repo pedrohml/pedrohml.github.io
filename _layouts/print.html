@@ -6,8 +6,15 @@
   	{% include common-headers.html %}
     <script type="text/javascript">
         function onLoad() {
-          var data = {'day-menu': liquidData['menu-food'][urlSearchParams.get('weekday')]};
-          liquidEngine.renderFile(window.location.pathname, data).then(function(content) { $('#content').html(content) })
+          var showPrice = true;
+          if (urlSearchParams.get('show-price') === "false")
+            showPrice = false;
+          var data = {
+            'site': {'data': liquidData['site']['data']},
+            'day-menu': liquidData['site']['data']['menu-food'][urlSearchParams.get('weekday')],
+            'page': {'show-price': showPrice }
+          };
+          liquidEngine.renderFile(window.location.pathname, data).then(function(content) { $('#content').html(content) });
         }
     </script>
   </head>

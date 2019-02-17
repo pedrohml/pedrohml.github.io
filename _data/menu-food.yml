@@ -15,6 +15,57 @@ monday:
     product-title: Mosaico vegetariano
     product-description: Mix de folhas, farofa de kafta de soja, croutons, lascas de queijo parmesão, tomate seco, folhas de hortelã, romã e pesto
     product-price: 20
+tuesday:
+    earth:
+      product-title: Cozido de carne
+      product-description: Releitura do tradicional cozido de carne acompanhado de legumes e arroz
+      product-price: 27
+    sky:
+      product-title: Frango agridoce
+      product-description: Acompanhado de arroz e legumes
+      product-price: 25
+    sea:
+      product-title: Bobó de filé de siri
+      product-description: Bobó preparado à base de raízes, acompanhado de arroz e vinagrete
+      product-price: 28
+    veg:
+      product-title: Lasanha de berinjela com shitake
+      product-description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
+      product-price: 26
+wednesday:
+  earth:
+    product-title: Cupim desfiado com redução de vinho
+    product-description: Acompanha creme de batata doce e legumes
+    product-price: 28
+  sky:
+    product-title: Codorna com mel e alecrim
+    product-description: Codorna agridoce acompanhada de arroz primavera
+    product-price: 24
+  sea:
+    product-title: Mosaico marítimo
+    product-description: Mix de folhas, camarão, croutons, lascas de queijo parmesão, tomate seco, abacate, romã e pesto
+    product-price: 28
+  veg:
+    product-title: Mosaico vegetariano
+    product-description: Mix de folhas, farofa de kafta de soja, croutons, lascas de queijo parmesão, tomate seco, folhas de hortelã, romã e pesto
+    product-price: 20
+thursday:
+  earth:
+    product-title: Quibebe de jerimum com carne de sol
+    product-description: Acompanha farofa cítrica
+    product-price: 28
+  sky:
+    product-title: Mosaíco aéreo
+    product-description: Mix de folhas, filé de frango, croutons, lascas de queijo parmesão, tomate seco, abacate, romã e pesto
+    product-price: 24
+  sea:
+    product-title: Moqueca de peixe
+    product-description: Com pirão, arroz e vinagrete
+    product-price: 28
+  veg:
+    product-title: Arroz com shitake
+    product-description: Arroz 7 grãos acompanhado de cogumelo shitake e legumes
+    product-price: 26
 friday:
   earth:
     product-title: Arrumadinho com carne de sol e calabresa
