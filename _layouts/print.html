@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cambito</title>
+  	{% include common-headers.html %}
+    <script type="text/javascript">
+        function onLoad() {
+          var data = {'day-menu': liquidData['menu-food'][urlSearchParams.get('weekday')]};
+          liquidEngine.renderFile(window.location.pathname, data).then(function(content) { $('#content').html(content) })
+        }
+    </script>
+  </head>
+  <body onload="onLoad()">
+    <div id="content">
+      {{ content }}
+    </div>
+  </body>
+</html>

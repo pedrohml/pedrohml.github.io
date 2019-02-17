@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'just-signature';
+	src: url('/assets/fonts/JustSignature.ttf') format('truetype');;
+}
+
+@font-face {
+	font-family: 'gloriant';
+	src: url('/assets/fonts/Gloriant.ttf') format('truetype');;
+}
+
+@media print {
+	@page { margin: 0; }
+	body {
+		transform: scale(1.5);
+		page-break-inside: avoid;
+		position: absolute;
+		margin: 0;
+		left: 0;
+		top: 0;
+	 }
+}
+
+body {
+	padding-top: 20px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.logo {
+	font-family: 'gloriant';
+	font-size: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+}
+
+.menu {
+	position: relative;
+	width: 560px;
+	height: 400px;
+	background-color: white;
+}
+
+.row {
+}
+
+.category-sections {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.category-section {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+
+.category-section-single {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+
+.category-title {
+	align-self: center;
+	font-family: 'just-signature';
+	font-size: 30px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.product-title {
+	align-self: center;
+	font-family: 'Arial';
+	font-size: 18px;
+	font-weight: bold;
+	width: 220px;
+	text-align: center;
+}
+
+.product-description {
+	align-self: center;
+	text-align: center;
+	font-family: 'Arial';
+	font-style: italic;
+	font-size: 12px;
+}
