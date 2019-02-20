@@ -43,7 +43,7 @@ wednesday:
     product-price: 24
   sea:
     product-title: Mosaico marítimo
-    product-description: Mix de folhas, camarão, croutons, lascas de queijo parmesão, tomate seco, abacate, romã e pesto
+    product-description: Mix de folhas, camarão, croutons, lascas de queijo parmesão, tomate seco, romã e pesto
     product-price: 28
   veg:
     product-title: Mosaico vegetariano
@@ -56,7 +56,7 @@ thursday:
     product-price: 27
   sky:
     product-title: Mosaíco aéreo
-    product-description: Mix de folhas, filé de frango, croutons, lascas de queijo parmesão, tomate seco, abacate, romã e pesto
+    product-description: Mix de folhas, filé de frango, croutons, lascas de queijo parmesão, tomate seco, romã e pesto
     product-price: 24
   sea:
     product-title: Moqueca de peixe
