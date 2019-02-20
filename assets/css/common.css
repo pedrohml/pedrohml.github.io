@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'gloriant';
+	src: url('/assets/fonts/Gloriant.ttf') format('truetype');;
+}
+
+.logo {
+	font-family: 'gloriant';
+	font-size: 40px;
+	padding: 10px;
+	line-height: 40px;
+}

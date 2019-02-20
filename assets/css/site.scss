@@ -1,0 +1,103 @@
+---
+---
+
+@font-face {
+	font-family: 'just-signature';
+	src: url('/assets/fonts/JustSignature.ttf') format('truetype');;
+}
+
+@font-face {
+	font-family: 'olde-english';
+	src: url('/assets/fonts/OldeEnglish.ttf') format('truetype');;
+}
+
+@import "common";
+@import "site-mobile";
+@import "site-desktop";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #aaa;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  position: relative;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  background: $header-background;
+}
+
+.header > .logo {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+}
+
+.nav-menu-item {
+  font-family: $font-nav-menu-item;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  user-select: none;
+}
+
+.footer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: $footer-background;
+}
+
+.social-links {
+  display: flex;
+  align-self: flex-end;
+}
+
+.social-link {
+  display: flex;
+  font-family: $font-text;
+  font-size: 8px;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-content-text {
+	padding: 5px;
+}
+
+.main-content-text > p {
+  text-indent: 25px;
+	font-family: $font-text;
+	text-align: justify;
+}
+
+.main-content-text > p::first-letter {
+  font-size: 30px;
+}
+
+p.center {
+  text-align: center;
+}

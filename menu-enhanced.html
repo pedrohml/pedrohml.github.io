@@ -1,0 +1,22 @@
+---
+layout: main
+---
+{% assign day-menu = site.data.menu-food.saturday %}
+{% assign left = true %}
+
+<div style="display: flex; flex-direction: column">
+{% for cat in site.data.menu-food.saturday %}
+<div class="category-item">
+  <div class="product-image">
+    <img src="{{ cat[1].product-image }}"/>
+  </div>
+  <div class="product-content {% if left %}right{% else %}left{% endif %}">
+    <div class="product-text {% if left %}right{% else %}left{% endif %}">
+      <div class="product-title">{{ cat[1].product-title }}</div>
+      <div class="product-description">{{ cat[1].product-description }}</div>
+    </div>
+  </div>
+</div>
+{% if left == true %}{% assign left = false %}{% else %}{% assign left = true %}{% endif %}
+{% endfor %}
+</div>

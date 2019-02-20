@@ -1,0 +1,80 @@
+/* desktop */
+@media screen and (min-width: 400px) {
+  .nav-menu-button {
+    display: none;
+  }
+
+  .nav-menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .nav-menu {
+    align-self: center;
+    margin: 0px;
+  }
+
+  .nav-menu-item {
+    padding: 10px;
+  }
+
+  .nav-menu-item:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+  }
+
+  .header {
+    height: 80px;
+  }
+
+  .header > .logo {
+    top: 10px;
+    left: 10px;
+  }
+
+  .footer {
+    height: 60px;
+  }
+
+  .social-links {
+    flex-direction: column;
+  }
+
+  .social-link {
+    flex-direction: row;
+    width: 90px;
+  }
+
+  .social-link-icon {
+    font-size: 12px;
+  }
+
+  .social-link-text {
+    font-size: 8px;
+    align-self: center;
+    padding-top: 2px;
+    padding-left: 2px;
+  }
+
+  .main-content {
+  }
+
+  .main-content-background > img {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	left: 0px;
+  	z-index: -10;
+  }
+
+  .main-content-text {
+  	font-family: $font-text;
+  	font-size: 12px;
+    padding: 5px;
+  	margin: 20px;
+  	background-color: $text-background;
+  	border-radius: 10px;
+  }
+}

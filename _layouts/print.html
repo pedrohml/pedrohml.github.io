@@ -4,17 +4,37 @@
     <meta charset="utf-8">
     <title>Cambito</title>
   	{% include common-headers.html %}
+    {% include menu-headers.html %}
     <script type="text/javascript">
         function onLoad() {
           var showPrice = true;
+          var double = false;
+          var siteData = liquidData['site']['data'];
+          var pageData = liquidData['page'];
+          var weekday = urlSearchParams.get('weekday');
+          var daymenu = siteData['menu-food'][weekday];
+          var increasePrice = urlSearchParams.get('increase-price') && parseFloat(urlSearchParams.get('increase-price'));
+          if (increasePrice) {
+            if (daymenu.earth)
+              daymenu.earth['product-price'] = (daymenu.earth['product-price'] || 0) + increasePrice;
+            if (daymenu.sky)
+              daymenu.sky['product-price'] = (daymenu.sky['product-price'] || 0) + increasePrice;
+            if (daymenu.veg)
+              daymenu.veg['product-price'] = (daymenu.veg['product-price'] || 0) + increasePrice;
+            if (daymenu.sea)
+              daymenu.sea['product-price'] = (daymenu.sea['product-price'] || 0) + increasePrice;
+            if (daymenu.entrance)
+              daymenu.entrance['product-price'] = (daymenu.entrance['product-price'] || 0) + increasePrice;
+          }
           if (urlSearchParams.get('show-price') === "false")
             showPrice = false;
-          var data = {
-            'site': {'data': liquidData['site']['data']},
-            'day-menu': liquidData['site']['data']['menu-food'][urlSearchParams.get('weekday')],
-            'page': {'show-price': showPrice }
-          };
-          liquidEngine.renderFile(window.location.pathname, data).then(function(content) { $('#content').html(content) });
+          if (urlSearchParams.get('double') === "true")
+            double = true;
+          var data = $.extend(liquidData, {
+            'day-menu': daymenu,
+            'page': $.extend(pageData, {'show-price': showPrice })
+          });
+          liquidEngine.renderFile(double ? '/menu-print-double.html' : '/menu-print-single.html', data).then(function(content) { $('#content').html(content) });
         }
     </script>
   </head>

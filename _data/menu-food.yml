@@ -88,6 +88,7 @@ saturday:
     product-title: Feijoada
     product-description: Arroz, torresmo, farofa, couve, vinagrete, laranja e caipirinha
     product-price: 29
+    product-image: /assets/images/feijoada-background.jpg
   sea:
     product-title: Sururuzada
     product-description: Com pirão, arroz e vinagrete
@@ -96,3 +97,4 @@ saturday:
     product-title: Cuscuz de couve flor com kafta de soja
     product-description: A couve flor é o próprio cuscuz nessa releitura local de um cuscuz no estilo marroquino. Acompanha kafta de soja temperada com diversas especiarias e molho de iogurte
     product-price: 27
+    product-image: /assets/images/cuscuz-background.jpg
