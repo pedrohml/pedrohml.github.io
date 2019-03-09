@@ -1,0 +1,39 @@
+---
+layout: weekly-menu
+---
+
+{% assign quad-outer-widths = "0mm 105mm" | split: " "  %}
+{% assign quad-outer-heights = "0mm 148.5mm" | split: " "  %}
+
+<div class="page page-border">
+  {% for quad-outer-width in quad-outer-widths %}
+    {% for quad-outer-height in quad-outer-heights %}
+      <div class="quad-outer quad-outer-border" style="top: {{ quad-outer-height }}; left: {{ quad-outer-width }}">
+        <div class="quad-inner quad-inner-border" style="position: absolute; top: 0mm; left: 0mm; width: 52.5mm; height: 74.25mm">
+          <div style="position: absolute; transform: translate(-200px, -60px) rotate(90deg) scale(0.5); z-index: 0">
+            {% assign day-menu = site.data['menu-food']['friday'] %}
+            {% include menu-content.html %}
+          </div>
+        </div>
+        <div class="quad-inner quad-inner-border" style="position: absolute; top: 0mm; left: 52.5mm; width: 52.5mm; height: 74.25mm">
+          <div style="position: absolute; transform: translate(-200px, -60px) rotate(90deg) scale(0.5); z-index: 0">
+            {% assign day-menu = site.data['menu-food']['wednesday'] %}
+            {% include menu-content.html %}
+          </div>
+        </div>
+        <div class="quad-inner quad-inner-border" style="position: absolute; top: 74.25mm; left: 0mm; width: 52.5mm; height: 74.25mm">
+          <div style="position: absolute; transform: translate(-200px, -60px) rotate(90deg) scale(0.5); z-index: 0">
+            {% assign day-menu = site.data['menu-food']['saturday'] %}
+            {% include menu-content.html %}
+          </div>
+        </div>
+        <div class="quad-inner quad-inner-border" style="position: absolute; top: 74.25mm; left: 52.5mm; width: 52.5mm; height: 74.25mm">
+          <div style="position: absolute; transform: translate(-200px, -60px) rotate(90deg) scale(0.5); z-index: 0">
+            {% assign day-menu = site.data['menu-food']['thursday'] %}
+            {% include menu-content.html %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endfor %}
+</div>

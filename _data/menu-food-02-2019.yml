@@ -1,0 +1,100 @@
+monday:
+  earth:
+    product-title: Baião especial
+    product-description: Feijão fradinho, verduras frescas, compota de pimenta de cheiro, lascas de queijo coalho, charque e calabresa
+    product-price: 28
+  sky:
+    product-title: Galinhada
+    product-description: Frango a passarinho, arroz cremoso, quiabo grelhado e cebola roxa selada
+    product-price: 27
+  sea:
+    product-title: Peixe em crosta
+    product-description: Purê de banana da terra, compota de pimenta de cheiro e azeite de limão
+    product-price: 29
+  veg:
+    product-title: Mosaico vegetariano
+    product-description: Mix de folhas, farofa de kafta de soja, croutons, lascas de queijo parmesão, tomate seco, folhas de hortelã, romã e pesto
+    product-price: 20
+tuesday:
+    earth:
+      product-title: Cozido de carne
+      product-description: Releitura do tradicional cozido de carne acompanhado de legumes e arroz
+      product-price: 27
+    sky:
+      product-title: Frango agridoce
+      product-description: Acompanhado de arroz e legumes
+      product-price: 25
+    sea:
+      product-title: Bobó de filé de siri
+      product-description: Bobó preparado à base de raízes, acompanhado de arroz e vinagrete
+      product-price: 28
+    veg:
+      product-title: Lasanha de berinjela com shitake
+      product-description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
+      product-price: 26
+wednesday:
+  earth:
+    product-title: Cupim desfiado com redução de vinho
+    product-description: Acompanha creme de batata doce e legumes
+    product-price: 28
+  sky:
+    product-title: Codorna com mel e alecrim
+    product-description: Codorna agridoce acompanhada de arroz primavera
+    product-price: 24
+  sea:
+    product-title: Mosaico marítimo
+    product-description: Mix de folhas, camarão, croutons, lascas de queijo parmesão, tomate seco, romã e pesto
+    product-price: 28
+  veg:
+    product-title: Mosaico vegetariano
+    product-description: Mix de folhas, farofa de kafta de soja, croutons, lascas de queijo parmesão, tomate seco, folhas de hortelã, romã e pesto
+    product-price: 20
+thursday:
+  earth:
+    product-title: Quibebe de jerimum com carne de sol
+    product-description: Acompanha farofa cítrica
+    product-price: 27
+  sky:
+    product-title: Mosaíco aéreo
+    product-description: Mix de folhas, filé de frango, croutons, lascas de queijo parmesão, tomate seco, romã e pesto
+    product-price: 24
+  sea:
+    product-title: Moqueca de peixe
+    product-description: Com pirão, arroz e vinagrete
+    product-price: 28
+  veg:
+    product-title: Arroz com shitake
+    product-description: Arroz 7 grãos acompanhado de cogumelo shitake e legumes
+    product-price: 26
+friday:
+  earth:
+    product-title: Arrumadinho com carne de sol e calabresa
+    product-description: Feijão verde, carne de sol, calabresa, legumes e compota de pimenta especial da nossa chef
+    product-price: 28
+  sea:
+    product-title: Peixe na folha da bananeira
+    product-description: Peixe assado dentro da folha da bananeira, acompanhado de farofa de banana passa com amendoim e creme de queijo coalho
+    product-price: 29
+  veg:
+    product-title: Moqueca de jaca
+    product-description: Acompanha arroz, farofa cítrica e vinagrete
+    product-price: 26
+saturday:
+  entrance:
+    product-title:
+    product-description: Bolinho de moqueca de peixe acompanhado de geleia de pimenta de cheiro com maracujá
+    product-price: 15
+  earth:
+    product-title: Feijoada
+    product-description: Arroz, torresmo, farofa, couve, vinagrete, laranja e caipirinha
+    product-price: 29
+    product-image: /assets/images/feijoada-background.jpg
+  sea:
+    product-title: Sururuzada
+    product-description: Com pirão, arroz e vinagrete
+    product-price: 28
+  veg:
+    product-title: Cuscuz de couve flor com kafta de soja
+    product-description: A couve flor é o próprio cuscuz nessa releitura local de um cuscuz no estilo marroquino. Acompanha kafta de soja temperada com diversas especiarias e molho de iogurte
+    product-price: 27
+    product-image: /assets/images/cuscuz-background.jpg

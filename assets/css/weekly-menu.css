@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'gloriant';
+	src: url('/assets/fonts/Gloriant.ttf') format('truetype');;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header > .logo {
+	display: none;
+}
+
+.menu-title {
+	font-family: 'gloriant';
+	font-size: 42px;
+}
+
+.page {
+	position: absolute;
+	display: flex;
+	width: 210mm;
+	height: 297mm;
+}
+
+.page-border {
+	z-index: 1000;
+}
+
+.quad-outer {
+	position: absolute;
+	width: 105mm;
+	height: 148.5mm;
+}
+
+.quad-outer-border {
+	/* border: 1px dashed black; */
+	z-index: 1000;
+}
+
+.quad-inner-border {
+	/* border: 1px dotted black; */
+	z-index: 1000;
+}
+
+.logo {
+	font-family: 'gloriant';
+	font-size: 40px;
+	padding: 10px;
+	line-height: 40px;
+}
+
+.social-links {
+  display: flex;
+	flex-direction: column;
+}
+
+.social-link {
+  display: flex;
+	flex-direction: row;
+  font-family: 'Arial';
+  font-size: 18px;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+	line-height: 22px
+}
+
+.social-link-text {
+	margin-left: 5px;
+}

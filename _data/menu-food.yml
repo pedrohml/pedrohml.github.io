@@ -1,100 +1,102 @@
 monday:
+  day-name: Segunda-feira
   earth:
-    product-title: Baião especial
-    product-description: Feijão fradinho, verduras frescas, compota de pimenta de cheiro, lascas de queijo coalho, charque e calabresa
+    product-title: Escondidinho de carne de sol
+    product-description: Carne de sol imersa em purê de batata com queijo gratinado
     product-price: 28
   sky:
-    product-title: Galinhada
-    product-description: Frango a passarinho, arroz cremoso, quiabo grelhado e cebola roxa selada
+    product-title: Galinha velha
+    product-description: Galinha velha acompanhada de fava, arroz e farofa de couve
     product-price: 27
   sea:
     product-title: Peixe em crosta
     product-description: Purê de banana da terra, compota de pimenta de cheiro e azeite de limão
     product-price: 29
   veg:
-    product-title: Mosaico vegetariano
-    product-description: Mix de folhas, farofa de kafta de soja, croutons, lascas de queijo parmesão, tomate seco, folhas de hortelã, romã e pesto
-    product-price: 20
+    product-title: Nhoque com almôndegas ao sugo
+    product-description: Nhoque integral de batata com almôndegas de carne de soja e molho ao sugo
+    product-price: 24
 tuesday:
-    earth:
-      product-title: Cozido de carne
-      product-description: Releitura do tradicional cozido de carne acompanhado de legumes e arroz
-      product-price: 27
-    sky:
-      product-title: Frango agridoce
-      product-description: Acompanhado de arroz e legumes
-      product-price: 25
-    sea:
-      product-title: Bobó de filé de siri
-      product-description: Bobó preparado à base de raízes, acompanhado de arroz e vinagrete
-      product-price: 28
-    veg:
-      product-title: Lasanha de berinjela com shitake
-      product-description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
-      product-price: 26
+  day-name: Terça-feira
+  earth:
+    product-title: Cozido de carne
+    product-description: Releitura do tradicional cozido de carne acompanhado de legumes e arroz
+    product-price: 27
+  sky:
+    product-title: Coxa de frango recheada
+    product-description: Coxa de frando desossada e recheada com bacon. Acompanha purê de batata e creme de queijo
+    product-price: 26
+  sea:
+    product-title: Moqueca de camarão
+    product-description: Acompanha arroz de coco e vinagrete
+    product-price: 28
+  veg:
+    product-title: Lasanha de berinjela com shitake
+    product-description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
+    product-price: 26
 wednesday:
+  day-name: Quarta-feira
   earth:
     product-title: Cupim desfiado com redução de vinho
     product-description: Acompanha creme de batata doce e legumes
     product-price: 28
   sky:
-    product-title: Codorna com mel e alecrim
-    product-description: Codorna agridoce acompanhada de arroz primavera
-    product-price: 24
+    product-title: Codorna ao molho de especiarias
+    product-description: Acompanha arroz com açafrão, purê de maçã e molho de especiarias
+    product-price: 27
   sea:
-    product-title: Mosaico marítimo
-    product-description: Mix de folhas, camarão, croutons, lascas de queijo parmesão, tomate seco, romã e pesto
+    product-title: Bolinho de Axé da chef
+    product-description: Bolinho de moqueca de peixe, refogado de camarão, caruru, e vinagrete
     product-price: 28
   veg:
-    product-title: Mosaico vegetariano
-    product-description: Mix de folhas, farofa de kafta de soja, croutons, lascas de queijo parmesão, tomate seco, folhas de hortelã, romã e pesto
-    product-price: 20
-thursday:
-  earth:
-    product-title: Quibebe de jerimum com carne de sol
-    product-description: Acompanha farofa cítrica
-    product-price: 27
-  sky:
-    product-title: Mosaíco aéreo
-    product-description: Mix de folhas, filé de frango, croutons, lascas de queijo parmesão, tomate seco, romã e pesto
+    product-title: Tomates recheados
+    product-description: Tomates recheados com lentilha servidos em salada tropicália
     product-price: 24
+thursday:
+  day-name: Quinta-feira
+  earth:
+    product-title: Porco arretado
+    product-description: Bisteca no molho cítrico acompanhada de cuscuz nordestino com bacon
+    product-price: 26
+  sky:
+    product-title: Corações ao vinho
+    product-description: Acompanhados de creme de macaxeira com queijo
+    product-price: 26
   sea:
     product-title: Moqueca de peixe
     product-description: Com pirão, arroz e vinagrete
     product-price: 28
   veg:
-    product-title: Arroz com shitake
-    product-description: Arroz 7 grãos acompanhado de cogumelo shitake e legumes
-    product-price: 26
+    product-title: Barca de abobrinha
+    product-description: Soja temperada com especiarias servida na abobrinha e acompanhada de arroz integral
+    product-price: 24
 friday:
+  day-name: Sexta-feira
   earth:
-    product-title: Arrumadinho com carne de sol e calabresa
-    product-description: Feijão verde, carne de sol, calabresa, legumes e compota de pimenta especial da nossa chef
-    product-price: 26
+    product-title: Chambaril guisado no vinho
+    product-description: Acompanhado de legumes e arroz
+    product-price: 28
   sea:
     product-title: Peixe na folha da bananeira
     product-description: Peixe assado dentro da folha da bananeira, acompanhado de farofa de banana passa com amendoim e creme de queijo coalho
     product-price: 29
   veg:
-    product-title: Moqueca de jaca
-    product-description: Acompanha arroz, farofa cítrica e vinagrete
-    product-price: 24
+    product-title: Moqueca de banana da terra
+    product-description: Acompanha farofa cítrica e vinagrete
+    product-price: 25
 saturday:
-  entrance:
-    product-title: Entrada
-    product-description: Bolinho de moqueca de peixe acompanhado de geleia de pimenta de cheiro com maracujá
-    product-price: 15
+  day-name: Sábado
   earth:
-    product-title: Feijoada
-    product-description: Arroz, torresmo, farofa, couve, vinagrete, laranja e caipirinha
+    product-title: Dobradinha
+    product-description: Tradicional dobradinha com feijão branco, bucho de boi, calabresa defumada, bacon, arroz e farofa
     product-price: 29
-    product-image: /assets/images/feijoada-background.jpg
+    product-image:
   sea:
-    product-title: Sururuzada
-    product-description: Com pirão, arroz e vinagrete
-    product-price: 28
+    product-title: Peixe crocante
+    product-description: Posta frita, pirão de inhame e arroz branco
+    product-price: 29
   veg:
-    product-title: Cuscuz de couve flor com kafta de soja
-    product-description: A couve flor é o próprio cuscuz nessa releitura local de um cuscuz no estilo marroquino. Acompanha kafta de soja temperada com diversas especiarias e molho de iogurte
-    product-price: 27
-    product-image: /assets/images/cuscuz-background.jpg
+    product-title: Talharim de papaia verde
+    product-description: Tiras de papaia verde, cenoura, tomate cereja, gengibre e óleo de gergelim acompanhados de lentilha
+    product-price: 25
+    product-image:
