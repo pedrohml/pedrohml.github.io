@@ -1,0 +1,30 @@
+@media only print {
+  .print-menu {
+    display: none;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.print-menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  margin: 10px;
+  color: red;
+}
+
+.print-menu-option {
+  border: 1px solid darkgray;
+  margin: 0px;
+  padding: 5px;
+}
+
+.print-menu-option-selected {
+  background-color: black;
+  color: white !important;
+}

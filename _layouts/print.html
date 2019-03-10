@@ -5,10 +5,51 @@
     <title>Cambito</title>
   	{% include common-headers.html %}
     {% include menu-headers.html %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/print.css" />
     <script type="text/javascript">
-        function onLoad() {
-          var showPrice = true;
-          var double = false;
+        var showPriceMode = undefined;
+        var doubleMode = undefined;
+        var lastRenderData = null;
+
+        function isDynamic() {
+          return urlSearchParams.get('dynamic') || false;
+        }
+
+        function goToDailyMenu(weekday) {
+          window.location.href = "/print.html?dynamic=true&show-price=" + showPriceMode + "&double=" + doubleMode + "&weekday=" + weekday;
+        }
+
+        function render(data) {
+          liquidEngine.renderFile(doubleMode ? '/menu-print-double.html' : '/menu-print-single.html', data || lastRenderData).then(function(content) { $('#content').html(content) });
+          if (data)
+            lastRenderData = data;
+        }
+
+        function toggleShowPriceMode() {
+          var element = document.getElementById("show-price-mode-option");
+          var classList = element.classList;
+          showPriceMode = !showPriceMode;
+          if (showPriceMode)
+            classList.add('print-menu-option-selected');
+          else
+            classList.remove('print-menu-option-selected');
+          if (isDynamic())
+            render(buildRenderData());
+        }
+
+        function toggleDoubleMode() {
+          var element = document.getElementById("double-mode-option");
+          var classList = element.classList;
+          doubleMode = !doubleMode;
+          if (doubleMode)
+            classList.add('print-menu-option-selected');
+          else
+            classList.remove('print-menu-option-selected');
+          if (isDynamic())
+            render(buildRenderData());
+        }
+
+        function buildRenderData() {
           var siteData = liquidData['site']['data'];
           var pageData = liquidData['page'];
           var weekday = urlSearchParams.get('weekday');
@@ -26,19 +67,29 @@
             if (daymenu.entrance)
               daymenu.entrance['product-price'] = (daymenu.entrance['product-price'] || 0) + increasePrice;
           }
-          if (urlSearchParams.get('show-price') === "false")
-            showPrice = false;
-          if (urlSearchParams.get('double') === "true")
-            double = true;
+          if (showPriceMode === undefined && urlSearchParams.get('show-price') === "false")
+            showPriceMode = false;
+          if (doubleMode === undefined && urlSearchParams.get('double') === "true")
+            doubleMode = true;
           var data = $.extend(liquidData, {
             'day-menu': daymenu,
-            'page': $.extend(pageData, {'show-price': showPrice })
+            'page': $.extend(pageData, {'show-price': showPriceMode })
           });
-          liquidEngine.renderFile(double ? '/menu-print-double.html' : '/menu-print-single.html', data).then(function(content) { $('#content').html(content) });
+          return data;
+        }
+
+        function onLoad() {
+          var data = buildRenderData();
+          if (isDynamic())
+            render(data);
         }
     </script>
   </head>
   <body onload="onLoad()">
+    <nav class="print-menu">
+      <a id="show-price-mode-option" class="print-menu-option" href="#" onclick="toggleShowPriceMode()">Show price</a>
+      <a id="double-mode-option" class="print-menu-option" href="#" onclick="toggleDoubleMode()">Double</a>
+    </nav>
     <div id="content">
       {{ content }}
     </div>

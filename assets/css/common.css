@@ -1,6 +1,22 @@
 @font-face {
 	font-family: 'gloriant';
-	src: url('/assets/fonts/Gloriant.ttf') format('truetype');;
+	src: url('/assets/fonts/Gloriant.ttf') format('truetype');
+}
+
+body {
+	font-family: Arial;
+}
+
+a, a:visited, a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 .logo {
