@@ -20,7 +20,7 @@ tuesday:
   day-name: Terça-feira
   earth:
     product-title: Cozido de carne
-    product-description: Releitura do tradicional cozido de carne acompanhado de legumes e arroz
+    product-description: Releitura do tradicional cozido de carne acompanhado de pirão, legumes e arroz
     product-price: 27
   sky:
     product-title: Coxa de frango recheada
@@ -73,7 +73,7 @@ thursday:
 friday:
   day-name: Sexta-feira
   earth:
-    product-title: Chambaril guisado no vinho
+    product-title: Chambaril guisado
     product-description: Acompanhado de legumes e arroz
     product-price: 28
   sea:
