@@ -6,6 +6,7 @@
   	{% include common-headers.html %}
     {% include menu-headers.html %}
     <link rel="stylesheet" type="text/css" href="/assets/css/print.css" />
+    <script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
     <script type="text/javascript">
         var showPriceMode = undefined;
         var doubleMode = undefined;
@@ -16,6 +17,7 @@
         }
 
         function goToDailyMenu(weekday) {
+          weekday = weekday || (new Date()).toLocaleDateString('en-US', {weekday: 'long'}).toLowerCase();
           window.location.href = "/print?dynamic=true&show-price=" + showPriceMode + "&double=" + doubleMode + "&weekday=" + weekday;
         }
 
@@ -49,6 +51,20 @@
             render(buildRenderData());
         }
 
+        function downloadAsImage() {
+          var downloadElement = document.querySelector("#download-image-placeholder");
+          var printMenuElement = document.querySelector(".print-menu");
+          var weekday = urlSearchParams.get('weekday');
+          printMenuElement.style.setProperty('display', 'none');
+          html2canvas(document.querySelector(".menu")).then(canvas => {
+              var link = canvas.toDataURL("image/png").replace('image/png', 'application/ocstream');
+              downloadElement.setAttribute('href', link);
+              downloadElement.setAttribute('download', 'menu-' + weekday + '.png');
+              printMenuElement.style.setProperty('display', 'block');
+              downloadElement.click();
+          });
+        }
+
         function buildRenderData() {
           var siteData = liquidData['site']['data'];
           var pageData = liquidData['page'];
@@ -73,6 +89,7 @@
             doubleMode = true;
           var data = $.extend(liquidData, {
             'day-menu': daymenu,
+            'weekday': weekday,
             'page': $.extend(pageData, {'show-price': showPriceMode })
           });
           return data;
@@ -86,9 +103,11 @@
     </script>
   </head>
   <body onload="onLoad()">
+    <a id="download-image-placeholder" href="#" style="display: none"></a>
     <nav class="print-menu">
       <a id="show-price-mode-option" class="print-menu-option" href="#" onclick="toggleShowPriceMode()">Show price</a>
       <a id="double-mode-option" class="print-menu-option" href="#" onclick="toggleDoubleMode()">Double</a>
+      <a id="download-option" class="print-menu-option" href="#" onclick="downloadAsImage()">Download</a>
     </nav>
     <div id="content">
       {{ content }}
