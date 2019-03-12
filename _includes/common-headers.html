@@ -4,8 +4,9 @@
 <script src="//unpkg.com/liquidjs/dist/liquid.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/assets/css/common.css" />
+<script src="/assets/js/liquid-dynamic.js"></script>
 <script type="text/javascript">
-    var liquidData = {'site': {'data': {{ site.data | jsonify }}}};
-    var liquidEngine = new Liquid();
-    var urlSearchParams = new URLSearchParams(window.location.search);
+  var liquidEngine = new Liquid();
+  var liquidData = {'site': {'data': {{ site.data | jsonify }}}};
+  var urlSearchParams = new URLSearchParams(window.location.search);
 </script>

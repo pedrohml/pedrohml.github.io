@@ -1,0 +1,15 @@
+---
+layout: main
+permalink: /hoje/
+---
+
+<div id="dynamic-content" style="display: flex; flex-direction: row; justify-content: center">
+  Carregando
+</div>
+
+<script>
+  var element = document.querySelector('#dynamic-content');
+  var weekDay = (new Date()).toLocaleDateString('en-US', {weekday: 'long'}).toLowerCase();
+  var dayMenu = liquidData.site.data['menu-food'][weekDay];
+  render(element, '/menu-print-single.html', { 'day-menu': dayMenu });
+</script>
