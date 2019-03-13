@@ -9,7 +9,7 @@ permalink: /hoje/
 
 <script>
   var element = document.querySelector('#dynamic-content');
-  var weekDay = (new Date()).toLocaleDateString('en-US', {weekday: 'long'}).toLowerCase();
+  var weekDay = (new Date()).toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();
   var dayMenu = liquidData.site.data['menu-food'][weekDay];
   render(element, '/menu-print-single.html', { 'day-menu': dayMenu });
 </script>

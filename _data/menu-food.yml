@@ -47,10 +47,10 @@ wednesday:
   sea:
     product-title: Bolinho de Axé da chef
     product-description: Bolinho de moqueca de peixe, refogado de camarão, caruru, e vinagrete
-    product-price: 28
+    product-price: 29
   veg:
-    product-title: Tomates recheados
-    product-description: Tomates recheados com lentilha servidos em salada tropicália
+    product-title: Tomates assados
+    product-description: Tomates assados com lentilha servidos em salada tropicália
     product-price: 24
 thursday:
   day-name: Quinta-feira

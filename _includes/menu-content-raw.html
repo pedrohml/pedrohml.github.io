@@ -7,7 +7,7 @@
   <div class="row">
     <div class="category-sections">
       <div class="category-section-single">
-        <div class="product-title">{{ day-menu.entrance.product-title }}{% if page.show-price and day-menu.entrance.product-price %}, R$ {{ day-menu.entrance.product-price + 7 }}{% endif %}</div>
+        <div class="product-title">{{ day-menu.entrance.product-title }}{% if show-price or page.show-price and day-menu.entrance.product-price %}, R$ {{ day-menu.entrance.product-price + 7 }}{% endif %}</div>
         <div class="product-description">{{ day-menu.entrance.product-description }}</div>
       </div>
     </div>
@@ -18,14 +18,14 @@
       {% if day-menu.earth.product-title %}
       <div class="category-section">
         <div class="category-title">terra</div>
-        <div class="product-title">{{ day-menu.earth.product-title }}{% if page.show-price and day-menu.earth.product-price %}, R$ {{ day-menu.earth.product-price }}{% endif %}</div>
+        <div class="product-title">{{ day-menu.earth.product-title }}{% if show-price or page.show-price and day-menu.earth.product-price %}, R$ {{ day-menu.earth.product-price }}{% endif %}</div>
         <div class="product-description">{{ day-menu.earth.product-description }}</div>
       </div>
       {% endif %}
       {% if day-menu.sky.product-title %}
       <div class="category-section">
         <div class="category-title">céu</div>
-        <div class="product-title">{{ day-menu.sky.product-title }}{% if page.show-price and day-menu.sky.product-price %}, R$ {{ day-menu.sky.product-price }}{% endif %}</div>
+        <div class="product-title">{{ day-menu.sky.product-title }}{% if show-price or page.show-price and day-menu.sky.product-price %}, R$ {{ day-menu.sky.product-price }}{% endif %}</div>
         <div class="product-description">{{ day-menu.sky.product-description }}</div>
       </div>
       {% endif %}
@@ -36,14 +36,14 @@
       {% if day-menu.sea.product-title %}
       <div class="category-section">
         <div class="category-title">mar</div>
-        <div class="product-title">{{ day-menu.sea.product-title }}{% if page.show-price and day-menu.sea.product-price %}, R$ {{ day-menu.sea.product-price }}{% endif %}</div>
+        <div class="product-title">{{ day-menu.sea.product-title }}{% if show-price or page.show-price and day-menu.sea.product-price %}, R$ {{ day-menu.sea.product-price }}{% endif %}</div>
         <div class="product-description">{{ day-menu.sea.product-description }}</div>
       </div>
       {% endif %}
       {% if day-menu.veg.product-title %}
       <div class="category-section">
         <div class="category-title">vegetariano</div>
-        <div class="product-title">{{ day-menu.veg.product-title }}{% if page.show-price and day-menu.veg.product-price %}, R$ {{ day-menu.veg.product-price }}{% endif %}</div>
+        <div class="product-title">{{ day-menu.veg.product-title }}{% if show-price or page.show-price and day-menu.veg.product-price %}, R$ {{ day-menu.veg.product-price }}{% endif %}</div>
         <div class="product-description">{{ day-menu.veg.product-description }}</div>
       </div>
       {% endif %}
