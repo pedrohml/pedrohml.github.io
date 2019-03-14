@@ -57,11 +57,11 @@ thursday:
   earth:
     product-title: Porco arretado
     product-description: Bisteca no molho cítrico acompanhada de cuscuz nordestino com bacon
-    product-price: 26
+    product-price: 27
   sky:
     product-title: Corações ao vinho
     product-description: Acompanhados de creme de macaxeira com queijo
-    product-price: 26
+    product-price: 27
   sea:
     product-title: Moqueca de peixe
     product-description: Com pirão, arroz e vinagrete
@@ -69,7 +69,7 @@ thursday:
   veg:
     product-title: Barca de abobrinha
     product-description: Soja temperada com especiarias servida na abobrinha e acompanhada de arroz integral
-    product-price: 24
+    product-price: 25
 friday:
   day-name: Sexta-feira
   earth:

@@ -66,3 +66,15 @@ body {
 .social-link-text {
 	margin-left: 5px;
 }
+
+.instagram-link {
+	color: #BE2A65 !important;
+}
+
+.facebook-link {
+	color: #4267B2 !important;
+}
+
+.whatsapp-link {
+	color: #08B252 !important;
+}
