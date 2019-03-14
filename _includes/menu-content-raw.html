@@ -1,8 +1,13 @@
 {% raw %}
 <div class="menu">
-  <div class="header">
-    <div class="logo">Cambito</div>
-  </div>
+  {% unless show-day-name %}
+    <div class="header">
+      <div class="logo">Cambito</div>
+    </div>
+  {% endunless %}
+  {% if show-day-name %}
+    <div class="menu-title">{{ day-menu.day-name }}</div>
+  {% endif %}
   {% if day-menu.entrance.product-title %}
   <div class="row">
     <div class="category-sections">

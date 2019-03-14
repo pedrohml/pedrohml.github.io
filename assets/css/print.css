@@ -28,3 +28,8 @@ body {
   background-color: black;
   color: white !important;
 }
+
+.menu-title {
+	font-family: 'gloriant';
+	font-size: 42px;
+}
