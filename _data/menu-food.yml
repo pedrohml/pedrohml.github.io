@@ -13,8 +13,8 @@ monday:
     product-description: Purê de banana da terra, compota de pimenta de cheiro e azeite de limão
     product-price: 29
   veg:
-    product-title: Nhoque com almôndegas ao sugo
-    product-description: Nhoque integral de batata com almôndegas de carne de soja e molho ao sugo
+    product-title: Gnocchi com almôndegas ao sugo
+    product-description: Gnocchi integral de batata com almôndegas de carne de soja e molho ao sugo
     product-price: 24
 tuesday:
   day-name: Terca-feira
