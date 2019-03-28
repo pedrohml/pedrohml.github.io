@@ -67,9 +67,9 @@ thursday:
     product-description: Com pirão, arroz e vinagrete
     product-price: 28
   veg:
-    product-title: Tomates assados
-    product-description: Tomates assados com grão de bico servidos em salada tropicália
-    product-price: 24
+    product-title: Barca de abobrinha
+    product-description: Soja temperada com especiarias servida na abobrinha e acompanhada de arroz integral
+    product-price: 25
 friday:
   day-name: Sexta-feira
   earth:
