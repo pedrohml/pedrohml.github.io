@@ -75,11 +75,11 @@ friday:
   earth:
     product-title: Chambaril guisado
     product-description: Acompanhado de legumes e arroz
-    product-price: 29
+    product-price: 28
   sea:
     product-title: Peixe na folha da bananeira
     product-description: Peixe assado dentro da folha da bananeira, acompanhado de farofa de banana passa com amendoim e creme de queijo coalho
-    product-price: 32
+    product-price: 29
   veg:
     product-title: Moqueca de banana da terra
     product-description: Acompanha farofa cítrica e vinagrete
