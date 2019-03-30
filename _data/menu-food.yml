@@ -89,14 +89,14 @@ saturday:
   earth:
     product-title: Dobradinha
     product-description: Tradicional dobradinha com feijão branco, bucho de boi, calabresa defumada, bacon, arroz e farofa
-    product-price: 29
+    product-price: 32
     product-image:
   sea:
     product-title: Peixe crocante
     product-description: Posta frita, pirão de inhame e arroz branco
-    product-price: 29
+    product-price: 33
   veg:
     product-title: Talharim de papaia verde
     product-description: Tiras de papaia verde, cenoura, tomate cereja, gengibre e óleo de gergelim acompanhados de lentilha
-    product-price: 25
+    product-price: 27
     product-image:
