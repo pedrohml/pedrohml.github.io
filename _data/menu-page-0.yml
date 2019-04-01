@@ -1,0 +1,147 @@
+# segunda-feira
+- category: terra
+  title: Escondidinho de carne de sol
+  description: Carne de sol imersa em purê de batata com queijo gratinado
+  price: 27
+  weekday: monday
+- category: ceu
+  title: Galinha cabidela
+  description: Galinha guisada no próprio sangue. Acompanha fava, arroz e farofa de couve
+  price: 26
+  weekday: monday
+- category: mar
+  title: Peixe em crosta
+  description: Purê de banana da terra, compota de pimenta de cheiro e azeite de limão
+  price: 29
+  weekday: monday
+- category: vegetariano
+  title: Gnocchi com almôndegas ao sugo
+  description: Gnocchi integral de batata com almôndegas de carne de soja e molho ao sugo
+  price: 24
+  weekday: monday
+
+# terça-feira
+- category: terra
+  title: Cozido de carne
+  description: Releitura do tradicional cozido de carne acompanhado de pirão, legumes e arroz
+  price: 27
+  weekday: tuesday
+- category: ceu
+  title: Coxa de frango com crosta especial
+  description: Coxa de frango desossada com crosta de castanha, acompanha purê de batata.
+  price: 26
+  weekday: tuesday
+- category: mar
+  title: Moqueca de camarão
+  description: Acompanha arroz de coco e vinagrete
+  price: 28
+  weekday: tuesday
+# - category: vegetariano
+#   title: Lasanha de berinjela com shitake
+#   description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
+#   price: 26
+#   weekday: tuesday
+
+
+# monday:
+#   day-name: Segunda-feira
+#   earth:
+#     product-title: Escondidinho de carne de sol
+#     product-description: Carne de sol imersa em purê de batata com queijo gratinado
+#     product-price: 27
+#   sky:
+#     product-title: Galinha cabidela
+#     product-description: Galinha guisada no próprio sangue. Acompanha fava, arroz e farofa de couve
+#     product-price: 26
+#   sea:
+#     product-title: Peixe em crosta
+#     product-description: Purê de banana da terra, compota de pimenta de cheiro e azeite de limão
+#     product-price: 29
+#   veg:
+#     product-title: Gnocchi com almôndegas ao sugo
+#     product-description: Gnocchi integral de batata com almôndegas de carne de soja e molho ao sugo
+#     product-price: 24
+# tuesday:
+#   day-name: Terca-feira
+#   earth:
+#     product-title: Cozido de carne
+#     product-description: Releitura do tradicional cozido de carne acompanhado de pirão, legumes e arroz
+#     product-price: 27
+#   sky:
+#     product-title: Coxa de frango com crosta especial
+#     product-description: Coxa de frango desossada com crosta de castanha, acompanha purê de batata.
+#     product-price: 26
+#   sea:
+#     product-title: Moqueca de camarão
+#     product-description: Acompanha arroz de coco e vinagrete
+#     product-price: 28
+#   veg:
+#     product-title: Lasanha de berinjela com shitake
+#     product-description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
+#     product-price: 26
+# wednesday:
+#   day-name: Quarta-feira
+#   earth:
+#     product-title: Cupim desfiado com redução de vinho
+#     product-description: Acompanha creme de batata doce e legumes
+#     product-price: 28
+#   sky:
+#     product-title: Codorna ao molho de especiarias
+#     product-description: Acompanha arroz com açafrão, purê de maçã e molho de especiarias
+#     product-price: 27
+#   sea:
+#     product-title: Bolinho de Axé da chef
+#     product-description: Bolinho de moqueca de peixe, refogado de camarão, caruru, e vinagrete
+#     product-price: 29
+#   veg:
+#     product-title: Tomates assados
+#     product-description: Tomates assados com grão de bico servidos em salada tropicália
+#     product-price: 24
+# thursday:
+#   day-name: Quinta-feira
+#   earth:
+#     product-title: Porco arretado
+#     product-description: Bisteca no molho cítrico acompanhada de cuscuz nordestino com bacon
+#     product-price: 27
+#   sky:
+#     product-title: Corações ao vinho
+#     product-description: Acompanhados de creme de macaxeira com queijo
+#     product-price: 27
+#   sea:
+#     product-title: Moqueca de peixe
+#     product-description: Com pirão, arroz e vinagrete
+#     product-price: 28
+#   veg:
+#     product-title: Barca de abobrinha
+#     product-description: Soja temperada com especiarias servida na abobrinha e acompanhada de arroz integral
+#     product-price: 25
+# friday:
+#   day-name: Sexta-feira
+#   earth:
+#     product-title: Chambaril guisado
+#     product-description: Acompanhado de legumes e arroz
+#     product-price: 28
+#   sea:
+#     product-title: Peixe na folha da bananeira
+#     product-description: Peixe assado dentro da folha da bananeira, acompanhado de farofa de banana passa com amendoim e creme de queijo coalho
+#     product-price: 29
+#   veg:
+#     product-title: Moqueca de banana da terra
+#     product-description: Acompanha farofa cítrica e vinagrete
+#     product-price: 25
+# saturday:
+#   day-name: Sabado
+#   earth:
+#     product-title: Dobradinha
+#     product-description: Tradicional dobradinha com feijão branco, bucho de boi, calabresa defumada, bacon, arroz e farofa
+#     product-price: 29
+#     product-image:
+#   sea:
+#     product-title: Peixe crocante
+#     product-description: Posta frita, pirão de inhame e arroz branco
+#     product-price: 30
+#   veg:
+#     product-title: Talharim de papaia verde
+#     product-description: Tiras de papaia verde, cenoura, tomate cereja, gengibre e óleo de gergelim acompanhados de lentilha
+#     product-price: 25
+#     product-image:

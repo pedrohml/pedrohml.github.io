@@ -1,0 +1,80 @@
+#bebidas
+- title: Água sem gás
+  category: bebidas
+  price: 4
+- title: Água com gás
+  category: bebidas
+  price: 4
+- title: Água de coco
+  category: bebidas
+  price: 5
+- title: Refrigerante
+  category: bebidas
+  price: 5
+- title: H2OH
+  category: bebidas
+  price: 6
+- title: Suco
+  category: bebidas
+  price: 6
+- title: Café expresso
+  category: bebidas
+  price: 5
+
+#drinks
+- title: Caipifruta especial
+  category: drinks
+  price: 14
+- title: Caipirosca
+  category: drinks
+  price: 12
+- title: Lagoa azul
+  category: drinks
+  description: (curaçau blue, vodka, limão, sprite)
+  price: 16
+- title: Lagoa azeda
+  category: drinks
+  description: (aperol, limão, espumante)
+  price: 16
+
+#cervejas
+- title: Heineken
+  category: cervejas
+  price: 8
+- title: Budweiser
+  category: cervejas
+  price: 7
+- title: Eisenbahn pilsen
+  category: cervejas
+  price: 7
+- title: Club66 Deuses Astronautas
+  category: cervejas
+  price: 24
+- title: Club66 Tuareg
+  category: cervejas
+  price: 20
+- title: Hop Bros Witbier
+  category: cervejas
+  price: 19
+- title: Hop Bros Helles
+  category: cervejas
+  price: 17
+- title: Hop Bros APA
+  category: cervejas
+  price: 19
+- title: Hop Bros Blond
+  category: cervejas
+  price: 19
+
+#sobremesas
+- title: Compota de goiaba
+  category: sobremesa
+  description: (com queijo coalho maçaricado e manjericão)
+  price: 8
+- title: Chocolatíssimo
+  category: sobremesa
+  description: (bolo de chocolate com cobertura de brigadeiro mole e azeite de limão siciliano)
+  price: 14
+- title: Cocada de colher
+  category: sobremesa
+  price: 8

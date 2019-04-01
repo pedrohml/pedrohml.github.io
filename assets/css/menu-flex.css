@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'just-signature';
+	src: url('/assets/fonts/JustSignature.ttf') format('truetype');;
+}
+
+@font-face {
+	font-family: 'gloriant';
+	src: url('/assets/fonts/Gloriant.ttf') format('truetype');;
+}
+
+@media print {
+	@page { margin: 0; }
+	body {
+		page-break-inside: avoid;
+		position: absolute;
+		margin: 0;
+		left: 0;
+		top: 0;
+	 }
+}
+
+body {
+	padding-top: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.menu {
+	position: relative;
+  display: flex;
+  flex-direction: column;
+	width: 297mm;
+	height: 210mm;
+	background-color: white;
+}
+
+.logo {
+	font-family: 'gloriant';
+	font-size: 90px;
+	padding: 20px;
+	line-height: 80px;
+}
+
+.menu-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+}
+
+.menu-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  text-align: center;
+}
+
+.category-section {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.category-title {
+	align-self: center;
+	font-family: 'just-signature';
+	font-size: 50px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.menu-item-title {
+	font-family: 'Arial';
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.menu-item-description {
+	font-family: 'Arial';
+	font-style: italic;
+	font-size: 22px;
+}

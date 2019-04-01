@@ -22,7 +22,7 @@
         }
 
         function render(data) {
-          liquidEngine.renderFile(doubleMode ? '/menu-print-double.html' : '/menu-print-single.html', data || lastRenderData).then(function(content) { $('#content').html(content) });
+          liquidEngine.renderFile('/menu', data || lastRenderData).then(function(content) { $('#content').html(content) });
           if (data)
             lastRenderData = data;
         }
@@ -57,11 +57,11 @@
           var weekday = urlSearchParams.get('weekday');
           printMenuElement.style.setProperty('display', 'none');
           html2canvas(document.querySelector(".menu")).then(canvas => {
-              var link = canvas.toDataURL("image/png").replace('image/png', 'application/ocstream');
-              downloadElement.setAttribute('href', link);
-              downloadElement.setAttribute('download', 'menu-' + weekday + '.png');
-              printMenuElement.style.setProperty('display', 'block');
-              downloadElement.click();
+            var link = canvas.toDataURL("image/png").replace('image/png', 'application/ocstream');
+            downloadElement.setAttribute('href', link);
+            downloadElement.setAttribute('download', 'menu-' + weekday + '.png');
+            printMenuElement.style.setProperty('display', 'block');
+            downloadElement.click();
           });
         }
 
@@ -69,30 +69,16 @@
           var siteData = liquidData['site']['data'];
           var pageData = liquidData['page'];
           var weekday = urlSearchParams.get('weekday');
-          var showDayName = urlSearchParams.get('show-day-name') === 'true' ? true : false;
-          var daymenu = siteData['menu-food'][weekday];
-          var increasePrice = urlSearchParams.get('increase-price') && parseFloat(urlSearchParams.get('increase-price'));
-          if (increasePrice) {
-            if (daymenu.earth)
-              daymenu.earth['product-price'] = (daymenu.earth['product-price'] || 0) + increasePrice;
-            if (daymenu.sky)
-              daymenu.sky['product-price'] = (daymenu.sky['product-price'] || 0) + increasePrice;
-            if (daymenu.veg)
-              daymenu.veg['product-price'] = (daymenu.veg['product-price'] || 0) + increasePrice;
-            if (daymenu.sea)
-              daymenu.sea['product-price'] = (daymenu.sea['product-price'] || 0) + increasePrice;
-            if (daymenu.entrance)
-              daymenu.entrance['product-price'] = (daymenu.entrance['product-price'] || 0) + increasePrice;
-          }
+          var showWeekdayName = urlSearchParams.get('show-weekday') === 'true' ? true : false;
+          var menuName = 'menu-page-0';
           if (showPriceMode === undefined && urlSearchParams.get('show-price') === "false")
             showPriceMode = false;
           if (doubleMode === undefined && urlSearchParams.get('double') === "true")
             doubleMode = true;
-          console.log(showDayName);
           var data = $.extend(liquidData, {
-            'day-menu': daymenu,
+            'menu-name': menuName,
             'weekday': weekday,
-            'show-day-name': showDayName,
+            'show-day': showWeekdayName,
             'page': $.extend(pageData, {'show-price': showPriceMode })
           });
           return data;
