@@ -19,21 +19,21 @@ monday:
 tuesday:
   day-name: Terca-feira
   earth:
-    product-title: Cozido de carne
-    product-description: Releitura do tradicional cozido de carne acompanhado de pirão, legumes e arroz
-    product-price: 27
+    product-title: Picadinho de carne
+    product-description: Picadinho de carne cozida com batata, cenoura e banana da terra. Acompanha arroz branco, feijão fradinho com couve refogada.
+    product-price: 29
   sky:
-    product-title: Coxa de frango com crosta especial
-    product-description: Coxa de frango desossada com crosta de castanha, acompanha purê de batata.
-    product-price: 26
+    product-title: Talharim ao pesto com iscas
+    product-description: Massa da casa ao pesto, parmesão e iscas de frango empanadas em mix de gergelim
+    product-price: 28
   sea:
     product-title: Moqueca de camarão
     product-description: Acompanha arroz de coco e vinagrete
-    product-price: 28
+    product-price: 32
   veg:
     product-title: Lasanha de berinjela com shitake
     product-description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
-    product-price: 26
+    product-price: 28
 wednesday:
   day-name: Quarta-feira
   earth:
@@ -41,17 +41,17 @@ wednesday:
     product-description: Acompanha creme de batata doce e legumes
     product-price: 28
   sky:
-    product-title: Codorna ao molho de especiarias
-    product-description: Acompanha arroz com açafrão, purê de maçã e molho de especiarias
+    product-title: Galinha à cabidela
+    product-description: Galinha guisada acompanhada de fava, arroz e farofa de couve
     product-price: 27
   sea:
-    product-title: Bolinho de Axé da chef
-    product-description: Bolinho de moqueca de peixe, refogado de camarão, caruru, e vinagrete
+    product-title: Acarajés de Iansã
+    product-description: Bolinhos de acarajé acompanhados de camarão refogado, vatapá, caruru e vinagrete
     product-price: 29
   veg:
-    product-title: Tomates assados
-    product-description: Tomates assados com grão de bico servidos em salada tropicália
-    product-price: 24
+    product-title: Grãos & cores
+    product-description: Grão de bico refogado, rabanete, pepino, cenoura em molho refrescante
+    product-price: 25
 thursday:
   day-name: Quinta-feira
   earth:
