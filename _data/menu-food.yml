@@ -38,38 +38,38 @@ wednesday:
   day-name: Quarta-feira
   earth:
     product-title: Cupim desfiado com redução de vinho
-    product-description: Acompanha creme de batata doce e legumes
-    product-price: 28
+    product-description: Acompanha creme de batata doce com mostarda
+    product-price: 30
   sky:
     product-title: Galinha à cabidela
-    product-description: Galinha guisada acompanhada de fava, arroz e farofa de couve
-    product-price: 27
+    product-description: Galinha guisada. Acompanha fava e arroz
+    product-price: 28
   sea:
     product-title: Acarajés de Iansã
     product-description: Bolinhos de acarajé acompanhados de camarão refogado, vatapá, caruru e vinagrete
-    product-price: 29
+    product-price: 32
   veg:
     product-title: Grãos & cores
-    product-description: Grão de bico refogado, rabanete, pepino, cenoura em molho refrescante
-    product-price: 25
+    product-description: Grão de bico refogado, rabanete, pepino e cenoura em molho refrescante
+    product-price: 26
 thursday:
   day-name: Quinta-feira
   earth:
     product-title: Porco arretado
     product-description: Bisteca no molho cítrico acompanhada de cuscuz nordestino com bacon
-    product-price: 27
+    product-price: 29
   sky:
     product-title: Corações ao vinho
     product-description: Acompanhados de creme de macaxeira com queijo
-    product-price: 27
+    product-price: 26
   sea:
-    product-title: Moqueca de peixe
-    product-description: Com pirão, arroz e vinagrete
-    product-price: 28
+    product-title: Axé odô
+    product-description: Filé de tilápia recheada com crosta de castanha e ervas. Acompanha creme de coco e chips de batata doce
+    product-price: 32
   veg:
-    product-title: Barca de abobrinha
-    product-description: Soja temperada com especiarias servida na abobrinha e acompanhada de arroz integral
-    product-price: 25
+    product-title: Estrogonofe de funghi
+    product-description: Funghi na base de leite de castanha. Acompanha arroz 7 grãos e jaca palha
+    product-price: 28
 friday:
   day-name: Sexta-feira
   earth:
