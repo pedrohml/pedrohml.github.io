@@ -77,19 +77,19 @@ body {
 .category-title {
 	align-self: center;
 	font-family: 'just-signature';
-	font-size: 50px;
+	font-size: 48px;
 	line-height: 80px;
 	text-align: center;
 }
 
 .menu-item-title {
 	font-family: 'Arial';
-	font-size: 25px;
+	font-size: 23px;
 	font-weight: bold;
 }
 
 .menu-item-description {
 	font-family: 'Arial';
 	font-style: italic;
-	font-size: 22px;
+	font-size: 21px;
 }

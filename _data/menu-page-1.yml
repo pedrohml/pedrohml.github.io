@@ -4,7 +4,7 @@
   price: 4
 - title: Água com gás
   category: bebidas
-  price: 4
+  price: 5
 - title: Água de coco
   category: bebidas
   price: 5
@@ -67,14 +67,14 @@
   price: 19
 
 #sobremesas
-- title: Compota de goiaba
-  category: sobremesa
-  description: (com queijo coalho maçaricado e manjericão)
-  price: 8
-- title: Chocolatíssimo
-  category: sobremesa
-  description: (bolo de chocolate com cobertura de brigadeiro mole e azeite de limão siciliano)
+# - title: Compota de goiaba
+#   category: sobremesa
+#   description: (com queijo coalho maçaricado e manjericão)
+#   price: 8
+- title: Brasileirinho
+  category: sobremesas
+  description: (torta de banana com creme de queijo brulet)
   price: 14
-- title: Cocada de colher
-  category: sobremesa
+- title: Cocada refrescante
+  category: sobremesas
   price: 8
