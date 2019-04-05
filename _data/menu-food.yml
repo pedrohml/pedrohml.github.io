@@ -75,15 +75,15 @@ friday:
   earth:
     product-title: Chambaril guisado
     product-description: Acompanhado de legumes e arroz
-    product-price: 28
+    product-price: 30
   sea:
-    product-title: Peixe na folha da bananeira
-    product-description: Peixe assado dentro da folha da bananeira, acompanhado de farofa de banana passa com amendoim e creme de queijo coalho
-    product-price: 29
+    product-title: Peixe no papilote
+    product-description: Peixe assado no papilote (bafo), feijão verde na nata e legumes
+    product-price: 32
   veg:
-    product-title: Moqueca de banana da terra
-    product-description: Acompanha farofa cítrica e vinagrete
-    product-price: 25
+    product-title: Carpaccio moulin rouge
+    product-description: Carpaccio de beterraba e arroz negro com funghi
+    product-price: 28
 saturday:
   day-name: Sabado
   earth:
