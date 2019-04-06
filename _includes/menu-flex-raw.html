@@ -16,7 +16,7 @@
           {% for item in menu-items %}
             {% if item.category == category %}
               <div class="menu-item">
-                <div class="menu-item-title">{{ item.title }}, R$ {{ item.price }}</div>
+                <div class="menu-item-title">{{ item.title }}{% if show-price %}, R$ {{ item.price }}{% endif %}</div>
                 <div class="menu-item-description">{{ item.description }}</div>
               </div>
             {% endif %}

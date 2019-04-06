@@ -36,12 +36,65 @@
   description: Acompanha arroz de coco e vinagrete
   price: 28
   period: tuesday
-# - category: vegetariano
-#   title: Lasanha de berinjela com shitake
-#   description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
-#   price: 26
-#   period: tuesday
 
+# sábado
+- category: entrada
+  title: Ceviche de camarão
+  description: Camarões marinados no limão e servido na cumbuca do coco com manga, coco seco maçaricado, gengibre caramelizado, maracujá, cebola roxa e coentro
+  price: 21
+  period: saturday
+- category: entrada
+  title: Creme de macaxeira
+  description: Calabresa e bacon defumados imersos em purê de macaxeira
+  price: 10
+  period: saturday
+- category: terra
+  title: Ragu com gnocchi de cenoura
+  description: Carne bovina na própria graxa e gnocchi de cenoura
+  price: 32
+  period: saturday
+- category: mar
+  title: Moqueca de robalo
+  description: Posta de robalo cozida em dendê, pirão de inhame e arroz
+  price: 35
+  period: saturday
+- category: vegetariano
+  title: Talharim de papaia verde
+  description: Tiras de papaia verde, cenoura, tomate cereja, gengibre e óleo de gergelim acompanhados de lentilha
+  price: 26
+  period: saturday
+
+# domingo
+- category: entrada
+  title: Codorna
+  description: Codorna assada e patê de tomate seco
+  price: 20
+  period: sunday
+- category: entrada
+  title: Tomates verdes fritos
+  description: Tomates verdes servidos com molho pesto
+  price: 15
+  period: sunday
+- category: terra
+  title: Cordeiro no molho de hortelã
+  description: Pernil de cordeiro servido em refrescante molho de hortelã e acompanhado de arroz
+  price: 32
+  period: sunday
+- category: ceu
+  title: Frango com polenta
+  description: Guisado de frango acompanhado de polenta frita e couve refogada
+  price: 35
+  period: sunday
+- category: mar
+  title: Talharim do polvo
+  description: Têntaculos de polvo e massa de espinafre da casa
+  price: 35
+  period: sunday
+- category: vegetariano
+  title: Gnocchi com almôndegas ao sugo
+  description: Gnocchi da casa com almôndegas veganas ao sugo
+  price: 26
+  period: sunday
 
 # monday:
 #   day-name: Segunda-feira

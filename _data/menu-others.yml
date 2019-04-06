@@ -29,13 +29,13 @@
   period: all
 
 #drinks
-- title: Caipifruta especial
+- title: Caipifruta
   category: drinks
   price: 14
   period: all
-- title: Caipirosca
+- title: Caipifruta especial
   category: drinks
-  price: 12
+  price: 16
   period: all
 - title: Lagoa azul
   category: drinks
@@ -51,15 +51,19 @@
 #cervejas
 - title: Heineken
   category: cervejas
-  price: 8
+  price: 9
   period: all
 - title: Budweiser
   category: cervejas
-  price: 7
+  price: 8
   period: all
 - title: Eisenbahn pilsen
   category: cervejas
-  price: 7
+  price: 8
+  period: all
+- title: Itaipava malzbier
+  category: cervejas
+  price: 8
   period: all
 - title: Club66 Deuses Astronautas
   category: cervejas
