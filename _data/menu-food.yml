@@ -3,44 +3,44 @@
   title: Escondidinho de carne de sol
   description: Carne de sol imersa em purê de batata com queijo gratinado
   price: 27
-  weekday: monday
+  period: monday
 - category: ceu
   title: Galinha cabidela
   description: Galinha guisada no próprio sangue. Acompanha fava, arroz e farofa de couve
   price: 26
-  weekday: monday
+  period: monday
 - category: mar
   title: Peixe em crosta
   description: Purê de banana da terra, compota de pimenta de cheiro e azeite de limão
   price: 29
-  weekday: monday
+  period: monday
 - category: vegetariano
   title: Gnocchi com almôndegas ao sugo
   description: Gnocchi integral de batata com almôndegas de carne de soja e molho ao sugo
   price: 24
-  weekday: monday
+  period: monday
 
 # terça-feira
 - category: terra
   title: Cozido de carne
   description: Releitura do tradicional cozido de carne acompanhado de pirão, legumes e arroz
   price: 27
-  weekday: tuesday
+  period: tuesday
 - category: ceu
   title: Coxa de frango com crosta especial
   description: Coxa de frango desossada com crosta de castanha, acompanha purê de batata.
   price: 26
-  weekday: tuesday
+  period: tuesday
 - category: mar
   title: Moqueca de camarão
   description: Acompanha arroz de coco e vinagrete
   price: 28
-  weekday: tuesday
+  period: tuesday
 # - category: vegetariano
 #   title: Lasanha de berinjela com shitake
 #   description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
 #   price: 26
-#   weekday: tuesday
+#   period: tuesday
 
 
 # monday:

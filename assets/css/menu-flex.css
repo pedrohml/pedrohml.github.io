@@ -28,6 +28,7 @@ body {
 .header {
 	display: flex;
 	flex-direction: row-reverse;
+	height: 300px;
 }
 
 .menu {
@@ -49,7 +50,7 @@ body {
 .menu-content {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-around;
   height: 100%;
   padding: 20px;
 }
@@ -71,7 +72,11 @@ body {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 45%;
+}
+
+.category-section.large {
+	width: 90%;
 }
 
 .category-title {

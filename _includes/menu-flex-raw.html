@@ -1,5 +1,7 @@
 {% raw %}
-{% assign menu-items = site.data[menu-name] | where: "xxx", "xxx" %}
+{% assign menu-items-all-days = site.data[menu-name] | where: "period", "all" %}
+{% assign menu-items = site.data[menu-name] | where: "period", period %}
+{% assign menu-items = menu-items | concat: menu-items-all-days %}
 {% assign categories = menu-items | map: "category" | uniq %}
 
 <div class="menu">
@@ -12,7 +14,7 @@
         <div class="category-title">{{category}}</div>
         <div class="menu-items">
           {% for item in menu-items %}
-            {% if item.weekday == weekday and item.category == category %}
+            {% if item.category == category %}
               <div class="menu-item">
                 <div class="menu-item-title">{{ item.title }}, R$ {{ item.price }}</div>
                 <div class="menu-item-description">{{ item.description }}</div>

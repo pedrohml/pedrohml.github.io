@@ -8,92 +8,91 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/print.css" />
     <script src="/assets/js/html2canvas.min.js"></script>
     <script type="text/javascript">
-        var showPriceMode = undefined;
-        var doubleMode = undefined;
-        var lastRenderData = null;
+      var showPriceMode = undefined;
+      var doubleMode = undefined;
+      var lastRenderData = null;
 
-        function isDynamic() {
-          return urlSearchParams.get('dynamic') || false;
-        }
+      function isDynamic() {
+        return urlSearchParams.get('dynamic') || false;
+      }
 
-        function goToDailyMenu(weekday) {
-          weekday = weekday || (new Date()).toLocaleDateString('en-US', {weekday: 'long'}).toLowerCase();
-          window.location.href = "/print?dynamic=true&show-price=" + showPriceMode + "&double=" + doubleMode + "&weekday=" + weekday;
-        }
+      function goToDailyMenu(period) {
+        window.location.href = "/print?dynamic=true&show-price=" + showPriceMode + "&double=" + doubleMode + "&period=" + period;
+      }
 
-        function render(data) {
-          liquidEngine.renderFile('/menu', data || lastRenderData).then(function(content) { $('#content').html(content) });
-          if (data)
-            lastRenderData = data;
-        }
+      function render(data) {
+        liquidEngine.renderFile('/menu-dynamic', data || lastRenderData).then(function(content) { $('#content').html(content) });
+        if (data)
+          lastRenderData = data;
+      }
 
-        function toggleShowPriceMode() {
-          var element = document.getElementById("show-price-mode-option");
-          var classList = element.classList;
-          showPriceMode = !showPriceMode;
-          if (showPriceMode)
-            classList.add('print-menu-option-selected');
-          else
-            classList.remove('print-menu-option-selected');
-          if (isDynamic())
-            render(buildRenderData());
-        }
+      function toggleShowPriceMode() {
+        var element = document.getElementById("show-price-mode-option");
+        var classList = element.classList;
+        showPriceMode = !showPriceMode;
+        if (showPriceMode)
+          classList.add('print-menu-option-selected');
+        else
+          classList.remove('print-menu-option-selected');
+        if (isDynamic())
+          render(buildRenderData());
+      }
 
-        function toggleDoubleMode() {
-          var element = document.getElementById("double-mode-option");
-          var classList = element.classList;
-          doubleMode = !doubleMode;
-          if (doubleMode)
-            classList.add('print-menu-option-selected');
-          else
-            classList.remove('print-menu-option-selected');
-          if (isDynamic())
-            render(buildRenderData());
-        }
+      function toggleDoubleMode() {
+        var element = document.getElementById("double-mode-option");
+        var classList = element.classList;
+        doubleMode = !doubleMode;
+        if (doubleMode)
+          classList.add('print-menu-option-selected');
+        else
+          classList.remove('print-menu-option-selected');
+        if (isDynamic())
+          render(buildRenderData());
+      }
 
-        function downloadAsImage() {
-          var downloadElement = document.querySelector("#download-image-placeholder");
-          var printMenuElement = document.querySelector(".print-menu");
-          var weekday = urlSearchParams.get('weekday');
-          printMenuElement.style.setProperty('display', 'none');
-          html2canvas(document.querySelector(".menu")).then(canvas => {
-            var link = canvas.toDataURL("image/png").replace('image/png', 'application/ocstream');
-            downloadElement.setAttribute('href', link);
-            downloadElement.setAttribute('download', 'menu-' + weekday + '.png');
-            printMenuElement.style.setProperty('display', 'block');
-            downloadElement.click();
-          });
-        }
+      function downloadAsImage() {
+        var downloadElement = document.querySelector("#download-image-placeholder");
+        var printMenuElement = document.querySelector(".print-menu");
+        var weekday = urlSearchParams.get('weekday');
+        printMenuElement.style.setProperty('display', 'none');
+        html2canvas(document.querySelector(".menu")).then(canvas => {
+          var link = canvas.toDataURL("image/png").replace('image/png', 'application/ocstream');
+          downloadElement.setAttribute('href', link);
+          downloadElement.setAttribute('download', 'menu-' + weekday + '.png');
+          printMenuElement.style.setProperty('display', 'block');
+          downloadElement.click();
+        });
+      }
 
-        function buildRenderData() {
-          var siteData = liquidData['site']['data'];
-          var pageData = liquidData['page'];
-          var weekday = urlSearchParams.get('weekday');
-          var showWeekdayName = urlSearchParams.get('show-weekday') === 'true' ? true : false;
-          var menuName = 'menu-page-0';
-          if (showPriceMode === undefined && urlSearchParams.get('show-price') === "false")
-            showPriceMode = false;
-          if (doubleMode === undefined && urlSearchParams.get('double') === "true")
-            doubleMode = true;
-          var data = $.extend(liquidData, {
-            'menu-name': menuName,
-            'weekday': weekday,
-            'show-day': showWeekdayName,
-            'page': $.extend(pageData, {'show-price': showPriceMode })
-          });
-          return data;
-        }
+      function buildRenderData() {
+        var siteData = liquidData['site']['data'];
+        var pageData = liquidData['page'];
+        var period = urlSearchParams.get('period');
+        var showWeekdayName = urlSearchParams.get('show-weekday') === 'true' ? true : false;
+        var menuName = 'menu-page-0';
+        if (showPriceMode === undefined && urlSearchParams.get('show-price') === "false")
+          showPriceMode = false;
+        if (doubleMode === undefined && urlSearchParams.get('double') === "true")
+          doubleMode = true;
+        var data = $.extend(liquidData, {
+          'menu-name': urlSearchParams.get('menu-name'),
+          'period': period,
+          'show-day': showWeekdayName,
+          'page': $.extend(pageData, {'show-price': showPriceMode })
+        });
+        return data;
+      }
 
-        function onLoad() {
-          var data = buildRenderData();
-          if (isDynamic())
-            render(data);
-        }
+      function onLoad() {
+        var data = buildRenderData();
+        if (isDynamic())
+          render(data);
+      }
     </script>
   </head>
   <body onload="onLoad()">
     <a id="download-image-placeholder" href="#" style="display: none"></a>
-    <nav class="print-menu">
+    <nav id="print-menu" class="print-menu">
       <a id="show-price-mode-option" class="print-menu-option" href="#" onclick="toggleShowPriceMode()">Show price</a>
       <a id="double-mode-option" class="print-menu-option" href="#" onclick="toggleDoubleMode()">Double</a>
       <a id="download-option" class="print-menu-option" href="#" onclick="downloadAsImage()">Download</a>

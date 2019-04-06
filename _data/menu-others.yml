@@ -2,69 +2,89 @@
 - title: Água sem gás
   category: bebidas
   price: 4
+  period: all
 - title: Água com gás
   category: bebidas
   price: 5
+  period: all
 - title: Água de coco
   category: bebidas
   price: 5
+  period: all
 - title: Refrigerante
   category: bebidas
   price: 5
+  period: all
 - title: H2OH
   category: bebidas
   price: 6
+  period: all
 - title: Suco
   category: bebidas
   price: 6
+  period: all
 - title: Café expresso
   category: bebidas
   price: 5
+  period: all
 
 #drinks
 - title: Caipifruta especial
   category: drinks
   price: 14
+  period: all
 - title: Caipirosca
   category: drinks
   price: 12
+  period: all
 - title: Lagoa azul
   category: drinks
   description: (curaçau blue, vodka, limão, sprite)
   price: 16
+  period: all
 - title: Lagoa azeda
   category: drinks
   description: (aperol, limão, espumante)
   price: 16
+  period: all
 
 #cervejas
 - title: Heineken
   category: cervejas
   price: 8
+  period: all
 - title: Budweiser
   category: cervejas
   price: 7
+  period: all
 - title: Eisenbahn pilsen
   category: cervejas
   price: 7
+  period: all
 - title: Club66 Deuses Astronautas
   category: cervejas
   price: 24
+  period: all
 - title: Club66 Tuareg
   category: cervejas
   price: 20
+  period: all
 - title: Hop Bros Witbier
   category: cervejas
   price: 19
+  period: all
 - title: Hop Bros Helles
   category: cervejas
   price: 17
+  period: all
 - title: Hop Bros APA
   category: cervejas
   price: 19
+  period: all
 - title: Hop Bros Blond
   category: cervejas
   price: 19
+  period: all
 
 #sobremesas
 # - title: Compota de goiaba
@@ -75,6 +95,8 @@
   category: sobremesas
   description: (torta de banana com creme de queijo brulet)
   price: 14
+  period: all
 - title: Cocada refrescante
   category: sobremesas
   price: 8
+  period: all
