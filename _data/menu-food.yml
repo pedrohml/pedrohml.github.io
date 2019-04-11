@@ -87,16 +87,32 @@ friday:
 saturday:
   day-name: Sabado
   earth:
-    product-title: Dobradinha
-    product-description: Tradicional dobradinha com feijão branco, bucho de boi, calabresa defumada, bacon, arroz e farofa
-    product-price: 29
-    product-image:
+    product-title: Ragu com gnocchi de cenoura
+    product-description: Carne bovina na própria graxa e gnocchi de cenoura
+    product-price: 32
   sea:
-    product-title: Peixe crocante
-    product-description: Posta frita, pirão de inhame e arroz branco
-    product-price: 30
+    product-title: Arroz de siri
+    product-description: 
+    product-price: 34
   veg:
     product-title: Talharim de papaia verde
     product-description: Tiras de papaia verde, cenoura, tomate cereja, gengibre e óleo de gergelim acompanhados de lentilha
     product-price: 25
-    product-image:
+sunday:
+  day-name: Domingo
+  earth:
+    product-title: Cordeiro no molho de hortelã
+    product-description: Pernil de cordeiro servido em refrescante molho de hortelã e acompanhado de arroz
+    product-price: 39
+  sea:
+    product-title: Talharim do polvo
+    product-description: Têntaculos de polvo e massa de espinafre da casa
+    product-price: 42
+  sky:
+    product-title: Frango com polenta
+    product-description: Guisado de frango acompanhado de polenta frita e couve refogada
+    product-price: 35
+  veg:
+    product-title: Gnocchi de batata doce com almôndegas ao sugo
+    product-description: Gnocchi da casa com batata doce e almôndegas veganas ao sugo
+    product-price: 32
