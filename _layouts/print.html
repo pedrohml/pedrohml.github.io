@@ -21,7 +21,10 @@
       }
 
       function render(data) {
-        liquidEngine.renderFile('/menu-dynamic', data || lastRenderData).then(function(content) { $('#content').html(content) });
+        liquidEngine.renderFile('/menu-dynamic', data || lastRenderData).then(function(content) {
+          var contentElement = document.getElementById('content');
+          contentElement.innerHTML = content;
+        });
         if (data)
           lastRenderData = data;
       }
@@ -65,8 +68,6 @@
       }
 
       function buildRenderData() {
-        var siteData = liquidData['site']['data'];
-        var pageData = liquidData['page'];
         var period = urlSearchParams.get('period');
         var showWeekdayName = urlSearchParams.get('show-weekday') === 'true' ? true : false;
         var menuName = 'menu-page-0';
@@ -74,12 +75,11 @@
           showPriceMode = false;
         if (doubleMode === undefined && urlSearchParams.get('double') === "true")
           doubleMode = true;
-        var data = $.extend(liquidData, {
+        var data = Object.assign(liquidData, {
           'menu-name': urlSearchParams.get('menu-name'),
           'period': period,
           'show-day': showWeekdayName,
-          'show-price': showPriceMode,
-          'page': $.extend(pageData, {})
+          'show-price': showPriceMode
         });
         return data;
       }

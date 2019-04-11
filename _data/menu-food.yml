@@ -66,34 +66,39 @@
 
 # domingo
 - category: entrada
-  title: Codorna
-  description: Codorna assada e patê de tomate seco
-  price: 20
+  title: Ceviche de camarão
+  description: Camarões marinados no limão e servido na cumbuca do coco com manga, coco seco maçaricado, gengibre caramelizado, maracujá, cebola roxa e coentro
+  price: 21
   period: sunday
 - category: entrada
-  title: Tomates verdes fritos
-  description: Tomates verdes servidos com molho pesto
-  price: 15
+  title: Codorna
+  description: Codorna assada e patê de tomate seco
+  price: 18
+  period: sunday
+- category: entrada
+  title: Caldinho de robalo
+  description: Caldinho de moqueca de robalo
+  price: 10
   period: sunday
 - category: terra
   title: Cordeiro no molho de hortelã
   description: Pernil de cordeiro servido em refrescante molho de hortelã e acompanhado de arroz
-  price: 32
+  price: 39
+  period: sunday
+- category: mar
+  title: Talharim do polvo
+  description: Têntaculos de polvo e massa de espinafre da casa
+  price: 42
   period: sunday
 - category: ceu
   title: Frango com polenta
   description: Guisado de frango acompanhado de polenta frita e couve refogada
   price: 35
   period: sunday
-- category: mar
-  title: Talharim do polvo
-  description: Têntaculos de polvo e massa de espinafre da casa
-  price: 35
-  period: sunday
 - category: vegetariano
-  title: Gnocchi com almôndegas ao sugo
-  description: Gnocchi da casa com almôndegas veganas ao sugo
-  price: 26
+  title: Gnocchi de batata doce com almôndegas ao sugo
+  description: Gnocchi da casa com batata doce e almôndegas veganas ao sugo
+  price: 32
   period: sunday
 
 # monday:
