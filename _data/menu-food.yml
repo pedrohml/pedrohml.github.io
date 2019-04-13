@@ -39,13 +39,17 @@
 
 # sábado
 - category: entrada
+  title: Ceviche de polvo
+  description: Polvo marinado no limão, maracujá, abacaxi, coentro e cebola roxa
+  price: 21
+  period: saturday
+- category: entrada
   title: Ceviche de camarão
   description: Camarões marinados no limão e servido na cumbuca do coco com manga, coco seco maçaricado, gengibre caramelizado, maracujá, cebola roxa e coentro
   price: 21
   period: saturday
 - category: entrada
-  title: Creme de macaxeira
-  description: Calabresa e bacon defumados imersos em purê de macaxeira
+  title: Caldinho de feijoada
   price: 10
   period: saturday
 - category: terra
@@ -54,8 +58,8 @@
   price: 32
   period: saturday
 - category: mar
-  title: Moqueca de robalo
-  description: Posta de robalo cozida em dendê, pirão de inhame e arroz
+  title: Arroz de siri
+  description: Filé de siri puxado no leite de coco com verduras. Acompanha arroz branco e pimentão assado
   price: 35
   period: saturday
 - category: vegetariano
@@ -66,18 +70,17 @@
 
 # domingo
 - category: entrada
+  title: Ceviche de polvo
+  description: Polvo marinado no limão, maracujá, abacaxi, coentro e cebola roxa
+  price: 21
+  period: sunday
+- category: entrada
   title: Ceviche de camarão
   description: Camarões marinados no limão e servido na cumbuca do coco com manga, coco seco maçaricado, gengibre caramelizado, maracujá, cebola roxa e coentro
   price: 21
   period: sunday
 - category: entrada
-  title: Codorna
-  description: Codorna assada e patê de tomate seco
-  price: 18
-  period: sunday
-- category: entrada
-  title: Caldinho de robalo
-  description: Caldinho de moqueca de robalo
+  title: Caldinho de feijoada
   price: 10
   period: sunday
 - category: terra

@@ -95,12 +95,22 @@
 #   category: sobremesa
 #   description: (com queijo coalho maçaricado e manjericão)
 #   price: 8
-- title: Brasileirinho
+# - title: Brasileirinho
+#   category: sobremesas
+#   description: (torta de banana com creme de queijo brulet)
+#   price: 14
+#   period: all
+# - title: Cocada refrescante
+#   category: sobremesas
+#   price: 8
+#   period: all
+- title: Prestígio
   category: sobremesas
-  description: (torta de banana com creme de queijo brulet)
-  price: 14
+  description: (Cocada com calda de chocolate)
+  price: 12
   period: all
-- title: Cocada refrescante
+- title: Tartelete de nozes & amêndoas
   category: sobremesas
-  price: 8
+  description: (Tartelete tradicional acompanhado de nozes e amêndoas)
+  price: 9
   period: all
