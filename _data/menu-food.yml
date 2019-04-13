@@ -45,7 +45,7 @@
   period: saturday
 - category: entrada
   title: Ceviche de camarão
-  description: Camarões marinados no limão e servido na cumbuca do coco com manga, coco seco maçaricado, gengibre caramelizado, maracujá, cebola roxa e coentro
+  description: Camarões marinados no limão, com manga, coco seco maçaricado, gengibre caramelizado, maracujá, cebola roxa e coentro
   price: 21
   period: saturday
 - category: entrada
@@ -59,7 +59,7 @@
   period: saturday
 - category: mar
   title: Arroz de siri
-  description: Filé de siri puxado no leite de coco com verduras. Acompanha arroz branco e pimentão assado
+  description: Filé de siri puxado no leite de coco com verduras no arroz branco
   price: 35
   period: saturday
 - category: vegetariano
