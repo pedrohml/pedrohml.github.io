@@ -69,18 +69,29 @@
   period: saturday
 
 # domingo
-- category: entrada
-  title: Ceviche de polvo
-  description: Polvo marinado no limão, maracujá, abacaxi, coentro e cebola roxa
-  price: 21
-  period: sunday
+# - category: entrada
+#   title: Ceviche de polvo
+#   description: Polvo marinado no limão, maracujá, abacaxi, coentro e cebola roxa
+#   price: 21
+#   period: sunday
 - category: entrada
   title: Ceviche de camarão
-  description: Camarões marinados no limão e servido na cumbuca do coco com manga, coco seco maçaricado, gengibre caramelizado, maracujá, cebola roxa e coentro
+  description: Camarões marinados no limão, manga, gengibre caramelizado, maracujá, cebola roxa e coentro
   price: 21
   period: sunday
 - category: entrada
-  title: Caldinho de feijoada
+  title: Codorna & molho especial
+  description: Codorna assada ao forno acompanhada de molho especial
+  price: 18
+  period: sunday
+- category: entrada
+  title: Creme de raízes na terra
+  description: Calabresa e bacon imersos em creme de macaxeira
+  price: 10
+  period: sunday
+- category: entrada
+  title: Creme de raízes no mar
+  description: Moqueca de peixe na base do creme de inhame
   price: 10
   period: sunday
 - category: terra
@@ -90,7 +101,7 @@
   period: sunday
 - category: mar
   title: Talharim do polvo
-  description: Têntaculos de polvo e massa de espinafre da casa
+  description: Têntaculos de polvo e massa de verde da casa
   price: 42
   period: sunday
 - category: ceu
