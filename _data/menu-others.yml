@@ -28,26 +28,6 @@
   price: 5
   period: all
 
-#drinks
-- title: Caipifruta
-  category: drinks
-  price: 15
-  period: all
-- title: Caipifruta especial
-  category: drinks
-  price: 18
-  period: all
-# - title: Lagoa azul
-#   category: drinks
-#   description: (curaçau blue, vodka, limão, sprite)
-#   price: 16
-#   period: all
-# - title: Lagoa azeda
-#   category: drinks
-#   description: (aperol, limão, espumante)
-#   price: 16
-#   period: all
-
 #cervejas
 - title: Heineken
   category: cervejas
@@ -90,15 +70,65 @@
   price: 19
   period: all
 
+
+#drinks
+- title: Caipifruta
+  category: drinks
+  price: 15
+  period: all
+- title: Caipifruta especial
+  category: drinks
+  price: 18
+  period: all
+# - title: Lagoa azul
+#   category: drinks
+#   description: (curaçau blue, vodka, limão, sprite)
+#   price: 16
+#   period: all
+# - title: Lagoa azeda
+#   category: drinks
+#   description: (aperol, limão, espumante)
+#   price: 16
+#   period: all
+
+# porcoes
+- title: Arroz
+  category: porcoes
+  price: 3
+  period: all
+- title: Feijão
+  category: porcoes
+  price: 5
+  period: all
+- title: Molho pesto
+  category: porcoes
+  price: 7
+  period: all
+- title: Queijo ralado
+  category: porcoes
+  price: 6
+  period: all
+
+
 #sobremesas
 # - title: Compota de goiaba
 #   category: sobremesa
 #   description: (com queijo coalho maçaricado e manjericão)
 #   price: 8
-- title: Brasileirinho
+# - title: Brasileirinho
+#   category: sobremesas
+#   description: (torta de banana com creme de queijo brulet)
+#   price: 12
+#   period: all
+- title: Overdose black
   category: sobremesas
-  description: (torta de banana com creme de queijo brulet)
-  price: 12
+  description: Massa de chocolate, brigadeiro meio amargo e calda de chocolate
+  price: 15
+  period: all
+- title: Ouro branco
+  category: sobremesas
+  description: Brigadeiro branco mole, cookies de biscoito, crocante e sal rosa
+  price: 14
   period: all
 # - title: Cocada refrescante
 #   category: sobremesas
@@ -109,11 +139,11 @@
 #   description: (Cocada com calda de chocolate)
 #   price: 12
 #   period: all
-- title: Tartelete de nozes & amêndoas
-  category: sobremesas
-  description: (Tartelete tradicional acompanhado de nozes e amêndoas)
-  price: 9
-  period: all
+# - title: Tartelete de nozes & amêndoas
+#   category: sobremesas
+#   description: (Tartelete tradicional acompanhado de nozes e amêndoas)
+#   price: 9
+#   period: all
 # - title: Frutas no papilote no chantilly
 #   category: sobremesas
 #   description: (Frutas no bafo do papilote com molho chantilly)

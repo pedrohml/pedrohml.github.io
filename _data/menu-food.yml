@@ -115,6 +115,62 @@
   price: 32
   period: sunday
 
+# - category: entrada
+#   title: Tapenade com torradas
+#   description: Antepasto de anchovas, alcaparras, azeitonas e torradas
+#   price: 8
+#   period: ssanta
+# - category: entrada
+#   title: Antepasto de berinjela com torradas
+#   description: Tomate, berinjela, cebola roxa, alho e torradas
+#   price: 6
+#   period: ssanta
+- category: entrada
+  title: Ceviche de camarão
+  description: Camarões marinados no limão, com manga, coco seco maçaricado, gengibre caramelizado, maracujá, cebola roxa e coentro
+  price: 21
+  period: ssanta
+- category: entrada
+  title: Bolinhos de moqueca da chef
+  description: Bolinhos de moqueca de peixe acompanhados de molho de pimenta
+  price: 18
+  period: ssanta
+- category: mar
+  title: Lombo nobre de bacalhau confitado
+  description: Lombo de bacalhau confitado, batata, lascas de cebola, azeitona preta e arroz de coco
+  price: 42
+  period: ssanta
+- category: mar
+  title: Moqueca de camarão
+  description: Camarão cozido em leite de coco e dendê, arroz de coco e bredo
+  price: 38
+  period: ssanta
+- category: mar
+  title: Peixe frito com feijão de coco
+  description: Posta de peixe frito acompanhada de arroz de coco, feijão e bredo
+  price: 37
+  period: ssanta
+- category: mar
+  title: Sururuzada
+  description: Sururu no coco, pirão, arroz branco e bredo
+  price: 37
+  period: ssanta
+- category: terra
+  title: Chambaril
+  description: Chambaril guisado, arroz branco e legumes assados
+  price: 36
+  period: ssanta
+- category: vegetariano
+  title: Kafta especial & talharim da casa ao pesto
+  description: Kafta de soja com molho de iogurte e talharim da casa com molho pesto
+  price: 32
+  period: ssanta
+# - category: vegetariano
+#   title: Estrogonofe de funghi
+#   description: Funghi no creme de castanha e mostarda. Acompanha arroz 7 grãos e palha de jaca
+#   price: 34
+#   period: ssanta
+
 # monday:
 #   day-name: Segunda-feira
 #   earth:
