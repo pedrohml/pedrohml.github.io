@@ -21,19 +21,19 @@ tuesday:
   earth:
     product-title: Picadinho de carne
     product-description: Picadinho de carne cozida com batata, cenoura e banana da terra. Acompanha arroz branco, feijão fradinho com couve refogada.
-    product-price: 29
+    product-price: 28
   sky:
     product-title: Talharim ao pesto com iscas
     product-description: Massa da casa ao pesto, parmesão e iscas de frango empanadas em mix de gergelim
-    product-price: 28
+    product-price: 30
   sea:
     product-title: Moqueca de camarão
     product-description: Acompanha arroz de coco e vinagrete
-    product-price: 32
+    product-price: 34
   veg:
     product-title: Lasanha de berinjela com shitake
     product-description: Nesse prato a berinjela é a própria massa, intercalada com molho de tomate da casa, cogumelos e parmesão
-    product-price: 28
+    product-price: 30
 wednesday:
   day-name: Quarta-feira
   earth:
@@ -92,7 +92,7 @@ saturday:
     product-price: 32
   sea:
     product-title: Arroz de siri
-    product-description: 
+    product-description:
     product-price: 34
   veg:
     product-title: Talharim de papaia verde
